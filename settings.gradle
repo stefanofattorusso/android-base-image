@@ -1,2 +1,2 @@
-include ':app', ':common'
+include ':app', ':common', ':features:home', ':data:local', ':data:model'
 rootProject.name='Base Image'

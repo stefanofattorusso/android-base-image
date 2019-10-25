@@ -17,5 +17,5 @@ android {
 }
 
 dependencies {
-//    implementation KotlinLibraries.kotlin
+    implementation KotlinLibraries.kotlin
 }

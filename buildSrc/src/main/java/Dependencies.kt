@@ -5,6 +5,9 @@ object ApplicationId {
 object Modules {
     const val app = ":app"
     const val common = ":common"
+    const val featureHome = ":features:home"
+    const val local = ":data:local"
+    const val model = ":data:model"
 }
 
 object Releases {
@@ -18,11 +21,12 @@ object Versions {
     const val targetSdk = 29
     const val androidJunit = "1.1.0"
     const val androidTestRunner = "1.1.2-alpha02"
-    const val appCompat = "1.1.0-alpha04"
+    const val appCompat = "1.1.0"
     const val archCoreTest = "2.0.0"
     const val constraintLayout = "1.1.3"
     const val coreKtx = "1.1.0-alpha04"
     const val coroutines = "1.1.1"
+    const val dagger = "2.24"
     const val databinding = "3.3.2"
     const val espressoCore = "3.2.0-alpha02"
     const val fragmentTest = "1.1.0-alpha06"
@@ -56,6 +60,13 @@ object Libraries {
     const val httpLoggingInterceptor = "com.squareup.okhttp3:logging-interceptor:${Versions.okHttp}"
     // GLIDE
     const val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
+
+    // DAGGER
+    const val runtime = "com.google.dagger:dagger:${Versions.dagger}"
+    const val android_support = "com.google.dagger:dagger-android-support:${Versions.dagger}"
+    const val compiler = "com.google.dagger:dagger-compiler:${Versions.dagger}"
+    const val android_support_compiler = "com.google.dagger:dagger-android-processor:${Versions.dagger}"
+
 }
 
 object KotlinLibraries {
