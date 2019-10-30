@@ -10,10 +10,10 @@ android {
 }
 
 dependencies {
+    // CORE
+    implementation project(Modules.core)
     // COMMON
     implementation project(Modules.common)
-    // ANDROID
-    implementation AndroidLibraries.appCompat
     // FEATURES modules
     implementation project(Modules.featureHome)
     // DATA modules

@@ -4,6 +4,7 @@ object ApplicationId {
 
 object Modules {
     const val app = ":app"
+    const val core = ":core"
     const val common = ":common"
     const val featureHome = ":features:home"
     const val local = ":data:local"

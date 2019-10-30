@@ -1,7 +1,6 @@
 apply plugin: 'com.android.library'
 apply from: '../../android_commons.gradle'
 apply plugin: 'kotlin-kapt'
-apply from: '../../android_core_dependencies.gradle'
 
 android {
 
@@ -19,4 +18,10 @@ dependencies {
 
     // DATA MODULE
     implementation project(Modules.model)
+
+    // DAGGER
+    implementation Libraries.runtime
+    implementation Libraries.android_support
+    kapt Libraries.compiler
+    kapt Libraries.android_support_compiler
 }

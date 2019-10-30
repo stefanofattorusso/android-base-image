@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply from: '../../android_commons.gradle'
+apply from: '../android_commons.gradle'
 apply plugin: 'kotlin-kapt'
 
 android {
@@ -11,5 +11,12 @@ android {
 
 dependencies {
     implementation project(Modules.common)
-    implementation project(Modules.core)
+
+    api AndroidLibraries.appCompat
+
+    // DAGGER
+    api Libraries.runtime
+    api Libraries.android_support
+    kapt Libraries.compiler
+    kapt Libraries.android_support_compiler
 }
