@@ -13,6 +13,8 @@ dependencies {
     implementation project(Modules.common)
 
     api AndroidLibraries.appCompat
+    api AndroidLibraries.constraintLayout
+    api AndroidLibraries.lifecycleRuntime
 
     // DAGGER
     api Libraries.runtime

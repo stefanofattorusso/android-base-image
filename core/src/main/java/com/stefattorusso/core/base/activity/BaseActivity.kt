@@ -1,4 +1,4 @@
-package com.stefattorusso.core.base
+package com.stefattorusso.core.base.activity
 
 import android.os.Bundle
 import android.view.MenuItem

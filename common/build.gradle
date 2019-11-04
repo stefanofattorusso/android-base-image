@@ -3,5 +3,13 @@ apply from: '../android_commons.gradle'
 apply plugin: 'kotlin-kapt'
 
 dependencies {
+
     implementation AndroidLibraries.appCompat
+    implementation Libraries.glide
+
+    // DAGGER
+    api Libraries.runtime
+    api Libraries.android_support
+    kapt Libraries.compiler
+    kapt Libraries.android_support_compiler
 }
