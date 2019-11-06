@@ -7,8 +7,10 @@ object Modules {
     const val core = ":core"
     const val common = ":common"
     const val featureHome = ":features:home"
+    const val featureGrid = ":features:grid"
     const val local = ":data:local"
     const val model = ":data:model"
+    const val navigation = ":navigation"
 }
 
 object Releases {
@@ -32,13 +34,15 @@ object Versions {
     const val espressoCore = "3.2.0-alpha02"
     const val fragmentTest = "1.1.0-alpha06"
     const val glide = "4.9.0"
-    const val gradle = "3.5.1"
+    const val gradle = "3.5.2"
     const val gson = "2.8.5"
     const val junit = "4.12"
     const val kotlin = "1.3.50"
     const val lifecycle = "2.1.0-alpha04"
     const val lifecycleRuntime = "2.2.0-alpha01"
+    const val mockk = "1.9.2"
     const val mockwebserver = "2.7.5"
+    const val navigation = "2.1.0"
     const val okHttp = "3.12.1"
     const val recyclerview = "1.0.0"
     const val retrofit = "2.5.0"
@@ -46,7 +50,6 @@ object Versions {
     const val retrofitGson = "2.4.0"
     const val room = "2.1.0-alpha06"
     const val timber = "4.7.1"
-    const val mockk = "1.9.2"
 }
 
 object Libraries {
@@ -87,6 +90,8 @@ object AndroidLibraries {
     const val lifecycleViewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle}"
     const val lifecycleExtensions = "androidx.lifecycle:lifecycle-extensions:${Versions.lifecycle}"
     const val recyclerView = "androidx.recyclerview:recyclerview:${Versions.recyclerview}"
+    const val navigationFragment = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
+    const val navigationUi = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
 }
 
 object TestLibraries {

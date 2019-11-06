@@ -16,7 +16,9 @@
             <option value="$PROJECT_DIR$/data/local" />
             <option value="$PROJECT_DIR$/data/model" />
             <option value="$PROJECT_DIR$/features" />
+            <option value="$PROJECT_DIR$/features/grid" />
             <option value="$PROJECT_DIR$/features/home" />
+            <option value="$PROJECT_DIR$/navigation" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -16,8 +16,11 @@ dependencies {
     implementation project(Modules.common)
     // FEATURES modules
     implementation project(Modules.featureHome)
+    implementation project(Modules.featureGrid)
     // DATA modules
     implementation project(Modules.local)
+    // NAVIGATION modules
+    implementation project(Modules.navigation)
 
     kapt Libraries.compiler
     kapt Libraries.android_support_compiler

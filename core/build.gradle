@@ -11,10 +11,14 @@ android {
 
 dependencies {
     implementation project(Modules.common)
+    implementation project(Modules.navigation)
 
     api AndroidLibraries.appCompat
     api AndroidLibraries.constraintLayout
     api AndroidLibraries.lifecycleRuntime
+    api AndroidLibraries.navigationFragment
+    api AndroidLibraries.navigationUi
+
 
     // DAGGER
     api Libraries.runtime

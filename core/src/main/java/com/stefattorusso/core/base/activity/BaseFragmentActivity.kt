@@ -1,4 +1,4 @@
-package com.stefattorusso.core.base
+package com.stefattorusso.core.base.activity
 
 import android.os.Bundle
 import android.view.View
@@ -6,7 +6,6 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import com.stefattorusso.common.getFragment
 import com.stefattorusso.common.loadFragment
-import com.stefattorusso.core.base.activity.BaseActivity
 
 abstract class BaseFragmentActivity<TFragment> : BaseActivity() {
 
