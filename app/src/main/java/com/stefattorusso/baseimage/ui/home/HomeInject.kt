@@ -2,6 +2,7 @@ package com.stefattorusso.baseimage.ui.home
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
+import com.stefattorusso.baseimage.di.ViewModelBuilder
 import com.stefattorusso.common.di.ViewModelKey
 import com.stefattorusso.core.inject.PerActivity
 import com.stefattorusso.home.HomeFragment
@@ -14,7 +15,10 @@ import dagger.multibindings.IntoMap
 @Module
 internal abstract class HomeBuilder {
 
-    @ContributesAndroidInjector(modules = [HomeModuleBinds::class])
+    @ContributesAndroidInjector(modules = [
+        ViewModelBuilder::class,
+        HomeModuleBinds::class
+    ])
     internal abstract fun homeActivity(): HomeActivity
 }
 
