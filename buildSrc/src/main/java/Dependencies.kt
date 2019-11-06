@@ -10,6 +10,7 @@ object Modules {
     const val featureGrid = ":features:grid"
     const val local = ":data:local"
     const val model = ":data:model"
+    const val remote = ":data:remote"
     const val navigation = ":navigation"
 }
 
@@ -45,8 +46,7 @@ object Versions {
     const val navigation = "2.1.0"
     const val okHttp = "3.12.1"
     const val recyclerview = "1.0.0"
-    const val retrofit = "2.5.0"
-    const val retrofitCoroutines = "0.9.2"
+    const val retrofit = "2.6.2"
     const val retrofitGson = "2.4.0"
     const val room = "2.1.0-alpha06"
     const val timber = "4.7.1"
@@ -58,10 +58,9 @@ object Libraries {
     const val roomRunTime = "androidx.room:room-runtime:${Versions.room}"
     const val roomKtx = "androidx.room:room-ktx:${Versions.room}"
     // RETROFIT
-    const val retrofitCoroutineAdapter = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:${Versions.retrofitCoroutines}"
     const val gson = "com.google.code.gson:gson:${Versions.gson}"
     const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
-    const val retrofitGsonConverter = "com.squareup.retrofit2:converter-gson:${Versions.retrofitGson}"
+    const val retrofitGsonConverter = "com.squareup.retrofit2:converter-gson:${Versions.retrofit}"
     const val httpLoggingInterceptor = "com.squareup.okhttp3:logging-interceptor:${Versions.okHttp}"
     // GLIDE
     const val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
