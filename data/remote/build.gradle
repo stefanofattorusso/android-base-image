@@ -2,7 +2,7 @@ apply plugin: 'kotlin'
 
 dependencies {
 
-    implementation project(Modules.model)
+    implementation project(Modules.dataModel)
 
     implementation Libraries.retrofit
     implementation Libraries.retrofitGsonConverter

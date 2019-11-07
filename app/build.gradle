@@ -18,7 +18,9 @@ dependencies {
     implementation project(Modules.featureHome)
     implementation project(Modules.featureGrid)
     // DATA modules
-    implementation project(Modules.local)
+    implementation project(Modules.dataLocal)
+    // DOMAIN modules
+    implementation project(Modules.domain)
     // NAVIGATION modules
     implementation project(Modules.navigation)
 

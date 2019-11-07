@@ -8,10 +8,12 @@ object Modules {
     const val common = ":common"
     const val featureHome = ":features:home"
     const val featureGrid = ":features:grid"
-    const val local = ":data:local"
-    const val model = ":data:model"
-    const val remote = ":data:remote"
+    const val dataLocal = ":data:local"
+    const val dataModel = ":data:model"
+    const val dataRemote = ":data:remote"
+    const val dataRepository = ":data:repository"
     const val navigation = ":navigation"
+    const val domain = ":domain"
 }
 
 object Releases {

@@ -11,7 +11,7 @@ dependencies {
     implementation AndroidLibraries.lifecycleExtensions
 
     // DATA MODULE
-    implementation project(Modules.model)
+    implementation project(Modules.dataModel)
 
     // DAGGER
     implementation Libraries.runtime
