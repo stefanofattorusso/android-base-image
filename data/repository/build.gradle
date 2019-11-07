@@ -8,6 +8,7 @@ dependencies {
     // DATA MODULE
     implementation project(Modules.dataRemote)
     implementation project(Modules.dataLocal)
+    implementation project(Modules.dataModel)
     implementation project(Modules.domain)
     api project(Modules.core)
 }

@@ -2,7 +2,7 @@ package com.stefattorusso.baseimage.ui.home
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
-import com.stefattorusso.baseimage.di.ViewModelBuilder
+import com.stefattorusso.baseimage.di.module.ViewModelBuilder
 import com.stefattorusso.common.di.ViewModelKey
 import com.stefattorusso.core.inject.PerActivity
 import com.stefattorusso.grid.GridFragment

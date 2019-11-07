@@ -19,6 +19,7 @@ dependencies {
     implementation project(Modules.featureGrid)
     // DATA modules
     implementation project(Modules.dataLocal)
+    implementation project(Modules.dataRepository)
     // DOMAIN modules
     implementation project(Modules.domain)
     // NAVIGATION modules

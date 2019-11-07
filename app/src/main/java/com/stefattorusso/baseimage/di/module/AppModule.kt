@@ -1,4 +1,4 @@
-package com.stefattorusso.baseimage.di
+package com.stefattorusso.baseimage.di.module
 
 import android.content.Context
 import com.stefattorusso.baseimage.App
@@ -9,11 +9,13 @@ import kotlinx.coroutines.Dispatchers
 import javax.inject.Singleton
 
 @Module(includes = arrayOf(AppModuleBinds::class))
-abstract class AppModule {
+object AppModule {
 
+    @JvmStatic
     @Provides
     fun provideContext(application: App): Context = application.applicationContext
 
+    @JvmStatic
     @Singleton
     @Provides
     fun provideCoroutineDispatchers() = AppCoroutineDispatchers(

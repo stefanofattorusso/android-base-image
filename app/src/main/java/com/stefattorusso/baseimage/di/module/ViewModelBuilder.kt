@@ -1,4 +1,4 @@
-package com.stefattorusso.baseimage.di
+package com.stefattorusso.baseimage.di.module
 
 import androidx.lifecycle.ViewModelProvider
 import com.stefattorusso.common.di.ViewModelFactory

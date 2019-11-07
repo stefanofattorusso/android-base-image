@@ -1,4 +1,4 @@
-package com.stefattorusso.baseimage.di
+package com.stefattorusso.baseimage.di.module
 
 import android.app.Application
 import com.stefattorusso.baseimage.App

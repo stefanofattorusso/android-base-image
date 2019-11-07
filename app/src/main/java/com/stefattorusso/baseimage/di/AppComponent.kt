@@ -1,8 +1,10 @@
 package com.stefattorusso.baseimage.di
 
 import com.stefattorusso.baseimage.App
+import com.stefattorusso.baseimage.di.module.AppModule
 import com.stefattorusso.baseimage.ui.home.HomeBuilder
 import com.stefattorusso.local.di.DatabaseModule
+import com.stefattorusso.repository.di.RepositoryModule
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule
@@ -15,7 +17,8 @@ import javax.inject.Singleton
         AndroidInjectionModule::class,
         DatabaseModule::class,
         HomeBuilder::class,
-        AppModule::class
+        AppModule::class,
+        RepositoryModule::class
     ]
 )
 interface AppComponent : AndroidInjector<App> {
