@@ -1,6 +1,6 @@
 package com.stefattorusso.repository.di
 
-import com.stefattorusso.domain.ImageRepositoryContract
+import com.stefattorusso.domain.repository.ImageRepositoryContract
 import com.stefattorusso.repository.ImageRepository
 import dagger.Binds
 import dagger.Module

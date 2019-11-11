@@ -3,6 +3,7 @@ package com.stefattorusso.baseimage.di.module
 import android.content.Context
 import com.stefattorusso.baseimage.App
 import com.stefattorusso.core.utils.AppCoroutineDispatchers
+import com.stefattorusso.remote.AppRetrofitService
 import dagger.Module
 import dagger.Provides
 import kotlinx.coroutines.Dispatchers
@@ -23,4 +24,10 @@ object AppModule {
         computation = Dispatchers.Default,
         main = Dispatchers.Main
     )
+
+    @JvmStatic
+    @Singleton
+    @Provides
+    fun provideRetrofitService(context: Context): AppRetrofitService =
+        AppRetrofitService.create(context)
 }

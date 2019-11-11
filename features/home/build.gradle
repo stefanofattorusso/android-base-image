@@ -7,6 +7,16 @@ android {
     defaultConfig {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+    flavorDimensions "api"
+    productFlavors {
+        pre {
+            dimension "api"
+        }
+        pro {
+            dimension "api"
+        }
+    }
 }
 
 dependencies {

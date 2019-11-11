@@ -5,4 +5,10 @@ apply plugin: 'kotlin-kapt'
 
 dependencies {
     implementation project(Modules.dataModel)
+
+    // DAGGER
+    implementation Libraries.runtime
+    implementation Libraries.android_support
+    kapt Libraries.compiler
+    kapt Libraries.android_support_compiler
 }

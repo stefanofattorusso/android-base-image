@@ -1,4 +1,4 @@
-package com.stefattorusso.domain
+package com.stefattorusso.domain.repository
 
 import com.stefattorusso.model.ImageEntity
 

@@ -1,6 +1,6 @@
 package com.stefattorusso.repository
 
-import com.stefattorusso.domain.ImageRepositoryContract
+import com.stefattorusso.domain.repository.ImageRepositoryContract
 import com.stefattorusso.model.ImageEntity
 import com.stefattorusso.remote.datasource.ImageDataSource
 import javax.inject.Inject

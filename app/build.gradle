@@ -7,6 +7,19 @@ android {
         applicationId ApplicationId.id
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+    flavorDimensions "api"
+    productFlavors {
+        pre {
+            dimension "api"
+            versionNameSuffix " (PRE)"
+            applicationIdSuffix = ".pre"
+        }
+        pro {
+            dimension "api"
+            applicationIdSuffix ""
+        }
+    }
 }
 
 dependencies {
@@ -19,6 +32,7 @@ dependencies {
     implementation project(Modules.featureGrid)
     // DATA modules
     implementation project(Modules.dataLocal)
+    implementation project(Modules.dataRemote)
     implementation project(Modules.dataRepository)
     // DOMAIN modules
     implementation project(Modules.domain)

@@ -2,6 +2,17 @@ apply plugin: 'com.android.library'
 apply from: '../../android_commons.gradle'
 apply plugin: 'kotlin-kapt'
 
+android {
+    flavorDimensions "api"
+    productFlavors {
+        pre {
+            dimension "api"
+        }
+        pro {
+            dimension "api"
+        }
+    }
+}
 
 dependencies {
 
